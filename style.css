@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin : 0;
+    padding: 200px;
+}
+
+.block {
+    display              : grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.inner {
+    background-color: rgba(255, 255, 255, 0.8);
+    border          : 1px solid rgba(0, 0, 0, 0.8);
+    text-align      : center;
+    width           : 200px;
+    height          : 200px;
+    position: relative;
+}
+
+span {
+    font-size: 100px;
+    left     : 50%;
+    top      : 50%;
+    position : absolute;
+    transform: translate(-50%, -50%);
+}
